@@ -1,0 +1,200 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+    font-family: "bowlby"; 
+    src: url("assets/bowlby.ttf") format("truetype");
+}
+
+html
+{
+    /*background-color: #bd57b0;*/
+    /*background: url(assets/jellyfishBackground.png);*/
+    background-color: #bd57b0;
+    color: #67e090;
+    font-family: bowlby;
+    letter-spacing: 0.5px;
+}
+
+.topnav {
+  background-color: #67e090;
+    width: 80%;
+    display: inline-block;
+
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+
+    padding-left: 41px;
+    padding-right: 41px;
+    
+    align-items: center;
+    align-content: center;
+    
+    margin: 20px auto;
+    display: block;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #bd57b0;
+  color: black;
+}
+
+body {
+
+    /*background-color: #bd57b0;
+    outline-style: solid;
+    outline-width: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #67e090;
+    font-family: bowlby;
+    font-size: 20px;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;*/
+}
+
+#main{
+    background-color: #072a22;
+    outline-style: solid;
+    outline-width: 11px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #67e090;
+    font-family: bowlby;
+    font-size: 20px;
+    height: 100%;
+    width: 80%;
+    /*margin-left: auto;
+    margin right: auto;*/
+    margin: auto;
+    margin-top: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+#offmain{
+    background-color: #67e090;
+    color: #bd57b0;
+    
+}
+
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+#left{
+
+    position: absolute;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+h1
+{
+    color: #67e090;
+    font-family: bowlby;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    
+  
+}
+
+h2
+{
+    font-family: bowlby;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    
+  
+}
+
+h3
+{
+    outline-style: solid;
+    outline-width: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #67e090;
+    font-family: bowlby;
+    font-size: 20px;
+    width: 30%;
+    /*margin-left: auto;
+    margin right: auto;*/
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+a
+{
+    color:#f6d5ef
+}
+
+#container
+{
+    background-color: black;
+    width: 120%;
+    margin-right: 60%;
+    align-content: flex-start;
+}
+
+#dragbox{
+    background-color: #bd57b0;
+    outline-style: solid;
+    outline-width: 11px;
+    position: absolute;
+    width: 60%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    align-content: center;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/jellyfishbanner.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
